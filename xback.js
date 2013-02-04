@@ -9,7 +9,7 @@
 	});
  */
 ;!function(pkg, undefined){
-	var STATE = 'back';
+	var STATE = 'x-back';
 	var element;
 
 	var onPopState = function(event){
