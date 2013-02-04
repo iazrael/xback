@@ -8,10 +8,10 @@ Example
 ========
 页面引入xback.js后, 使用下面的方法监听返回按钮事件, 支持多方法绑定
 
-XBack.listen(function(){
-	alert('oh! you press the back button');
-});
+	XBack.listen(function(){
+		alert('oh! you press the back button');
+	});
 
-XBack.listen(function(){
-	alert('ah, press press press');
-});
+	XBack.listen(function(){
+		alert('ah, press press press');
+	});
