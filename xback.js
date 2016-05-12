@@ -30,7 +30,7 @@
 		element.addEventListener(STATE, listener, false);
 	}
 
-	!function(){
+	;!function(){
 		element = document.createElement('span');
 		window.addEventListener('popstate', onPopState);
 		this.listen = listen;
